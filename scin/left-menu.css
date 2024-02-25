@@ -1,0 +1,105 @@
+#left-menu {
+	width: 170px;
+	height: 100%;
+	background-color: #6C90C0;
+
+}
+#left-menu ul{
+	width: 170px;
+	}
+
+#left-menu ul li {
+		width: 170px;
+position: relative;
+	}
+
+#left-menu li ul {
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	display: none;
+	}
+
+#left-menu li ul ul{
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	display: none;
+	width:100%;
+	}
+
+#left-menu li ul ul ul{
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	display: none;
+	width:170px;
+	}
+
+#left-menu li: hover ul {
+	display: block;
+	width: 170px;
+	}
+
+#left-menu ul.men_l,ul.men2_l,ul.men3_l,ul.men4_1  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 170px;
+	border-bottom: 1px solid #fff;
+	}
+
+#left-menu li:hover ul ul,
+#left-menu li li:hover ul ul,
+#left-menu li li li:hover ul ul,
+#left-menu li li li li:hover ul ul
+#left-menu li li li li li:hover ul ul
+{display:none;}
+
+#left-menu li:hover ul,
+#left-menu li li:hover ul,
+#left-menu li li li:hover ul,
+#left-menu li li li li:hover ul
+#left-menu li li li li li:hover ul
+{display:block;}
+
+li.m_l a,li.m2_l a,li.m3_l a,li.m_4 a,li.m_l_over a,li.m2_l_over a,li.m3_l_over a,li.m_4_over a  {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background-color: #6C90C0;
+	padding: 5px;
+	margin-left: 3px;
+	padding-left: 15px;
+	border-top: 1px solid #fff;
+	font-weight: bold;
+	border-bottom: 0;
+/*'	width: 180px;*/
+	}
+
+li.m2_l a,li.m3_l a,li.m_4 a,li.m2_l_over a,li.m3_l_over a,li.m_4_over a  {
+	margin-left: 0;
+	border-left: 1px solid #fff;
+	}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #left-menu  ul li { float: left; height: 1%; }
+* html #left-menu  ul li a { height: 1%; }
+/* End */
+#left-menu li a:hover{
+background-image: url(l_m.gif);
+background-repeat: no-repeat;
+background-position: left;
+}
+#left-menu li li a:hover{
+background-image: url(l_m2.gif);
+}
+
+#left-menu li a#left-current{
+background-image: url(l_m.gif);
+background-repeat: no-repeat;
+background-position: left;}
+
+#left-menu li li a#left-current{
+background-image: url(l_m2.gif);
+}

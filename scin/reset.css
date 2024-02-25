@@ -1,0 +1,122 @@
+*, *::before, *::after{
+box-sizing: border-box;
+}
+html, body {
+border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+ body {
+  margin:0;
+  padding:0;
+  min-height:100%;
+  height:auto !important;
+  height:100%;
+  border: 0;
+}
+form{
+		margin: 0;
+    padding: 0;
+}
+	#content, #zagol,#anons_1,#anons_2{
+	overflow:hidden;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#main{
+  height: 100%;
+}
+
+#setvis {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#setvis span {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#setvis .visually span {
+    padding: 6px;
+    padding-left: 30px;
+    border: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: transparent;
+    background-image: url(https://skin.edusite.ru/img/see.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+.visually span{
+			padding:6px;
+            padding-left: 40px;
+			border:1px solid #9c9c9c;
+			-moz-border-radius: 17px;
+			-khtml-border-radius: 17px;
+			-webkit-border-radius: 17px;
+			border-radius:17px;
+			color:#333;
+            background-color: #fff;
+            background-image: url(https://21202s19.edusite.ru/scinvisually/pic/w_normal.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+
+
+.hid{visibility: hidden;}
+.copymainmenu{display:none !important;}
+
+.logo {
+	
+	background-position:5px 5px!important;
+	padding-top:30px!important;
+	padding-bottom:10px!important;
+	background-size:150px!important;
+	padding-left:185px!important;
+	background-repeat:no-repeat!important;
+	min-height: 160px !important;
+  height: 160px;
+}
+.cover{
+	background-position:center middle!important;
+	background-size:100%!important;
+	background-size:cover!important;
+	padding:10px!important;
+	background-repeat:no-repeat!important;
+} 
+
+@media screen and (max-width:1280px){
+.logo{
+		padding-left: 165px!important;
+    background-size: 150px!important;
+    background-position: left center !important;	
+}
+}
+@media screen and (max-width:768px){
+	.logo{
+    padding: 10px!important;
+padding-top: 215px!important;
+    background-position: center top !important;
+    background-size: 200px !important;	}
+	.search_t{
+		width: 110px !important;
+	}
+}
+tr {
+    float: none;
+    clear: both;
+}

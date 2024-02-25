@@ -1,0 +1,124 @@
+#menu_middle{
+	vertical-align: Top;
+	color: #6C90C0;
+	padding:0;
+	margin: 0 0 0 0;
+	font-weight: bold;
+}
+
+#middle-menu-structure{
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+#middle-menu-structure ul{
+	padding:0;
+	margin: 0;
+	list-style:none;
+	float:left;
+	/*width: 180px;*/
+}
+
+#middle-menu-structure li{
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	position: relative;
+	list-style: none;
+}
+
+#middle-menu-structure li:hover{
+cursor:pointer;
+z-index:100;
+}
+
+
+#middle-menu-structure h5{
+	padding:0;
+	margin: 0;
+}
+
+#middle-menu-structure h5 a{
+font:11pt arial,helvetica,sans-serif;
+display:block;
+margin:2px;
+padding: 3px;
+
+padding-left: 5px;
+padding-right: 5px;
+color: #fff;
+text-decoration: none;
+ white-space: nowrap;
+ 	font-weight: bold;
+	border: 1px solid #fff;
+ }
+
+
+#middle-menu-structure h5 a:hover{
+background-color: White;
+color: #6C90C0;
+}
+
+
+#middle-menu-structure ul ul{
+	position:absolute;
+	z-index:500;
+	top:25px;
+	display:none;
+	padding:0 0 0 0;
+	margin: 0 0 0 0;
+	width: 240px;
+	border: 1px solid #fff;
+}
+
+#middle-menu-structure li:hover ul ul,
+#middle-menu-structure li li:hover ul ul,
+#middle-menu-structure li li li:hover ul ul,
+#middle-menu-structure li li li li:hover ul ul
+{display:none;}
+
+#middle-menu-structure li:hover ul,
+#middle-menu-structure li li:hover ul,
+#middle-menu-structure li li li:hover ul,
+#middle-menu-structure li li li li:hover ul
+{display:block;}
+
+
+#middle-menu-structure ul ul ul{
+top:-1px;
+left:100%;
+	width: 180px;
+
+}
+
+#middle-menu-structure a.x, #middle-menu-structure a.x:visited{
+font:11pt arial,helvetica,sans-serif;
+display:block;
+font-weight: bold;
+border:1px solid #fff;
+margin:0;
+padding: 3px;
+background-color: #6C90C0;
+color: #fff;
+text-decoration: none;
+ text-align: right;
+
+}
+
+#middle-menu-structure a.x:hover{
+text-decoration: underline;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #middle-menu-structure ul li { float: left; height: 1%; }
+* html #middle-menu-structure ul li a { height: 1%; }
+* html #middle-menu-structure ul.one{width: 10px;}
+
+
+/* End */
+#middle-menu-structure a#middle-current{
+background-color: White;
+color: #6C90C0;
+}
+#middle-menu-structure a.x#middle-current{
+text-decoration: underline;
+}
